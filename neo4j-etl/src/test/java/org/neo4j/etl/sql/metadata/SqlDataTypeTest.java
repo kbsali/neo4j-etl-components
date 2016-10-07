@@ -28,6 +28,7 @@ public class SqlDataTypeTest
         assertThat( SqlDataType.INT.toNeo4jDataType(), is( Neo4jDataType.Int ) );
         assertThat( SqlDataType.INT_UNSIGNED.toNeo4jDataType(), is( Neo4jDataType.Int ) );
         assertThat( SqlDataType.TINYINT.toNeo4jDataType(), is( Neo4jDataType.Byte ) );
+        assertThat( SqlDataType.TINYINT_UNSIGNED.toNeo4jDataType(), is( Neo4jDataType.Byte ) );
         assertThat( SqlDataType.SMALLINT.toNeo4jDataType(), is( Neo4jDataType.Short ) );
         assertThat( SqlDataType.SMALLINT_UNSIGNED.toNeo4jDataType(), is( Neo4jDataType.Short ) );
         assertThat( SqlDataType.MEDIUMINT.toNeo4jDataType(), is( Neo4jDataType.Int ) );
